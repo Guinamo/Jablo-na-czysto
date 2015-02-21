@@ -1,4 +1,4 @@
-﻿Log file open, 02/20/15 19:50:58
+﻿Log file open, 02/21/15 14:10:28
 LogInit:Display: Running engine for game: MyProject4
 LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -9,277 +9,942 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
 LogInit: Base directory: D:/Programs/UE4/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.02.20-18.50.58:113][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2015.02.20-18.50.58:163][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.02.20-18.50.58:850][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.02.20-18.50.59:030][  0]LogInit: Object subsystem initialized
-[2015.02.20-18.50.59:486][  0]LogInit: Selected Device Profile: [Windows]
-[2015.02.20-18.50.59:486][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.02.20-18.50.59:607][  0]LogInit: Computer: WHDR522
-[2015.02.20-18.50.59:607][  0]LogInit: User: Whitehead
-[2015.02.20-18.50.59:607][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.02.20-18.50.59:607][  0]LogInit: High frequency timer resolution =2.045703 MHz
-[2015.02.20-18.50.59:634][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
-[2015.02.20-18.50.59:635][  0]LogMemory: Platform Memory Stats for Windows
-[2015.02.20-18.50.59:635][  0]LogMemory: Process Physical Memory: 47.12 MB used, 47.12 MB peak
-[2015.02.20-18.50.59:635][  0]LogMemory: Process Virtual Memory: 23.52 MB used, 24.83 MB peak
-[2015.02.20-18.50.59:635][  0]LogMemory: Physical Memory: 2214.39 MB used, 4060.61 MB total
-[2015.02.20-18.50.59:635][  0]LogMemory: Virtual Memory: 263.07 MB used, 8388608.00 MB total
-[2015.02.20-18.51.00:029][  0]LogD3D11RHI: Found D3D11 adapter 0: ATI Mobility Radeon HD 4300 Series (Feature Level 10_0)
-[2015.02.20-18.51.00:029][  0]LogD3D11RHI: Adapter has 505MB of dedicated video memory, 0MB of dedicated system memory, and 1774MB of shared system memory, 1 output[s]
-[2015.02.20-18.51.00:029][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.02.20-18.51.00:073][  0]LogRHI: Texture pool is 353 MB (70% of 505 MB)
-[2015.02.20-18.51.00:118][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.02.20-18.51.02:871][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.02.20-18.51.03:346][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.02.20-18.51.23:267][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.20-18.51.25:115][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.20-18.51.25:314][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.02.20-18.51.25:995][  0]LogDerivedDataCache: Loaded boot cache 0.68s 36MB C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.20-18.51.25:995][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2015.02.20-18.51.25:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.02.20-18.51.25:995][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.02.20-18.51.26:242][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.02.20-18.51.26:296][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Whitehead/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.02.20-18.51.37:014][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2015.02.20-18.51.38:612][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.02.20-18.51.38:613][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.02.20-18.51.43:821][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.02.20-18.51.44:261][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.02.20-18.52.10:241][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.02.20-18.52.11:627][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Binaries/Win64. Error: 0
-[2015.02.20-18.52.13:208][  0]SourceControl: Info Source control is disabled
-[2015.02.20-18.52.13:208][  0]SourceControl: Info Source control is disabled
-[2015.02.20-18.52.13:226][  0]SourceControl: Info Source control is disabled
-[2015.02.20-18.52.14:323][  0]LogObj: 23754 objects as part of root set at end of initial load.
-[2015.02.20-18.52.14:323][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
-[2015.02.20-18.52.15:001][  0]LogEngine: Initializing Engine...
-[2015.02.20-18.52.15:851][  0]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.02.20-18.52.15:890][  0]LogInit: FAudioDevice initialized.
-[2015.02.20-18.52.16:469][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.02.20-18.52.16:613][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.20-18.52.16:647][  0]LogInit: Texture streaming: Enabled
-[2015.02.20-18.52.16:732][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.02.20-18.52.16:732][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
-[2015.02.20-18.52.16:734][  0]LogAnalytics: SetUserId f751ccbb34537ec0b5458c5212811ddb
-[2015.02.20-18.52.16:734][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.02.20-18.52.17:006][  0]LogInit: Transaction tracking system initialized
-[2015.02.20-18.52.18:258][  0]BlueprintLog: New page: Editor Load
-[2015.02.20-18.52.18:809][  0]LogAssetRegistry: FAssetRegistry took 0.0195 seconds to start up
-[2015.02.20-18.52.18:811][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.02.20-18.52.22:642][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.20-18.52.24:304][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.20-18.52.27:165][  0]LogConfig:Warning: Failed to saved backup for config[GameUserSettings]
-[2015.02.20-18.52.27:167][  0]LogFileManager:Warning: Error deleting file: D:/Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Config/Windows/GameUserSettings.ini (Error Code 0)
-[2015.02.20-18.52.27:374][  0]LogConsoleResponse:Display: 
-[2015.02.20-18.52.28:580][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.31:115][  0]SourceControl: Info Source control is disabled
-[2015.02.20-18.52.31:160][  0]Cmd: MAP LOAD FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.02.20-18.52.31:186][  0]LightingResults: New page: Lighting Build
-[2015.02.20-18.52.31:338][  0]MapCheck: New page: Map Check
-[2015.02.20-18.52.31:338][  0]LightingResults: New page: Lighting Build
-[2015.02.20-18.52.31:521][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015959760
-[2015.02.20-18.52.31:704][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/wrogowie/BP_Wrog1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.31:724][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BP_AI_Controller.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.31:747][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.31:777][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BB_AI_Wrog.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.31:806][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTService_DystansDoCelu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.32:737][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTT_AI_Obrazenia.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.32:824][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTT_Set_BB_Actor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.32:931][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTT_Set_BB_Bool.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.33:213][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/HeroTPP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.33:327][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/HeroTPP_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.34:919][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Props/drewniana_skrzynia.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.34:927][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Props/drewniana_skrzynia2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.34:935][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Props/swietlowka.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.20-18.52.38:639][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.02.20-18.52.38:680][  0]LogAIModule: Creating AISystem for world Level1
-[2015.02.20-18.52.38:744][  0]Cmd: MAP CHECKDEP
-[2015.02.20-18.52.38:759][  0]MapCheck: New page: Level1 - Feb 20, 2015, 8:52:38 PM
-[2015.02.20-18.52.38:982][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 238.056ms to complete.
-[2015.02.20-18.52.38:983][  0]LogFileHelpers: Loading map 'Level1' took 7.847
-[2015.02.20-18.52.40:482][  0]LogCollectionManager: Loaded 0 collections in 0.002113 seconds
-[2015.02.20-18.52.41:803][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.02.20-18.52.41:982][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.02.20-18.52.42:072][  0]LogLoad: Full Startup: 117.53 seconds (BP compile: 0.87 seconds)
-[2015.02.20-18.52.43:287][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x576.
-[2015.02.20-18.52.46:935][  7]LogAssetRegistry: Asset discovery search completed in 28.1459 seconds
-[2015.02.20-18.52.46:962][  7]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (43). May be truncated at the collector.
-[2015.02.20-18.52.49:873][ 25]Cmd: QUIT_EDITOR
-[2015.02.20-18.52.50:804][ 25]LogExit: Preparing to exit.
-[2015.02.20-18.52.51:688][ 25]LogExit: Editor shut down
-[2015.02.20-18.52.51:689][ 25]LogExit: Transaction tracking system shut down
-[2015.02.20-18.52.51:691][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CB625C0
-[2015.02.20-18.52.51:989][ 25]LogExit: Object subsystem successfully closed.
-[2015.02.20-18.52.52:404][ 25]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.02.20-18.52.52:404][ 25]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
-[2015.02.20-18.52.52:404][ 25]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
-[2015.02.20-18.52.52:404][ 25]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
-[2015.02.20-18.52.52:404][ 25]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
-[2015.02.20-18.52.52:404][ 25]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
-[2015.02.20-18.52.52:404][ 25]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
-[2015.02.20-18.52.52:441][ 25]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2015.02.20-18.52.52:441][ 25]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2015.02.20-18.52.52:461][ 25]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2015.02.20-18.52.52:480][ 25]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2015.02.20-18.52.52:480][ 25]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2015.02.20-18.52.52:480][ 25]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2015.02.20-18.52.52:480][ 25]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2015.02.20-18.52.52:480][ 25]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2015.02.20-18.52.52:481][ 25]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2015.02.20-18.52.52:482][ 25]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2015.02.20-18.52.52:482][ 25]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2015.02.20-18.52.52:497][ 25]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2015.02.20-18.52.52:520][ 25]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2015.02.20-18.52.52:520][ 25]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2015.02.20-18.52.52:599][ 25]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2015.02.20-18.52.52:599][ 25]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2015.02.20-18.52.52:860][ 25]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2015.02.20-18.52.52:905][ 25]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.02.20-18.52.52:911][ 25]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.02.20-18.52.52:932][ 25]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.02.20-18.52.52:932][ 25]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.02.20-18.52.52:932][ 25]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.02.20-18.52.52:932][ 25]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.02.20-18.52.52:946][ 25]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.02.20-18.52.52:980][ 25]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.02.20-18.52.53:164][ 25]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.02.20-18.52.53:178][ 25]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2015.02.20-18.52.53:178][ 25]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.02.20-18.52.53:178][ 25]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.02.20-18.52.53:178][ 25]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.02.20-18.52.53:178][ 25]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.02.20-18.52.53:178][ 25]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.02.20-18.52.53:191][ 25]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.02.20-18.52.53:198][ 25]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.02.20-18.52.53:198][ 25]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.02.20-18.52.53:198][ 25]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.02.20-18.52.53:199][ 25]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.02.20-18.52.53:199][ 25]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2015.02.20-18.52.53:199][ 25]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2015.02.20-18.52.53:199][ 25]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2015.02.20-18.52.53:199][ 25]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2015.02.20-18.52.53:199][ 25]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.02.20-18.52.53:215][ 25]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2015.02.20-18.52.53:215][ 25]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.02.20-18.52.53:215][ 25]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.02.20-18.52.53:216][ 25]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.02.20-18.52.53:216][ 25]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.02.20-18.52.53:216][ 25]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.02.20-18.52.53:241][ 25]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2015.02.20-18.52.53:241][ 25]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2015.02.20-18.52.53:241][ 25]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2015.02.20-18.52.53:242][ 25]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2015.02.20-18.52.53:242][ 25]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2015.02.20-18.52.53:242][ 25]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2015.02.20-18.52.53:256][ 25]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
-[2015.02.20-18.52.53:270][ 25]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
-[2015.02.20-18.52.53:370][ 25]LogModuleManager: Shutting down and abandoning module Paper2D (75)
-[2015.02.20-18.52.53:370][ 25]LogModuleManager: Shutting down and abandoning module UE4Game (74)
-[2015.02.20-18.52.53:370][ 25]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.02.20-18.52.53:375][ 25]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.02.20-18.52.53:375][ 25]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.02.20-18.52.53:375][ 25]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.02.20-18.52.53:375][ 25]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2015.02.20-18.52.53:395][ 25]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2015.02.20-18.52.53:419][ 25]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2015.02.20-18.52.53:419][ 25]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2015.02.20-18.52.53:430][ 25]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2015.02.20-18.52.53:430][ 25]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2015.02.20-18.52.53:430][ 25]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2015.02.20-18.52.53:449][ 25]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2015.02.20-18.52.53:477][ 25]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2015.02.20-18.52.53:501][ 25]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2015.02.20-18.52.53:511][ 25]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2015.02.20-18.52.53:511][ 25]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2015.02.20-18.52.53:523][ 25]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2015.02.20-18.52.53:523][ 25]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2015.02.20-18.52.53:523][ 25]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2015.02.20-18.52.53:523][ 25]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2015.02.20-18.52.53:524][ 25]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2015.02.20-18.52.53:524][ 25]LogModuleManager: Shutting down and abandoning module Core (51)
-[2015.02.20-18.52.53:524][ 25]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2015.02.20-18.52.53:524][ 25]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2015.02.20-18.52.53:524][ 25]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2015.02.20-18.52.53:544][ 25]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2015.02.20-18.52.53:871][ 25]LogDerivedDataCache: Shutdown
-[2015.02.20-18.52.53:871][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2015.02.20-18.52.53:871][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2015.02.20-18.52.53:871][ 25]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.02.20-18.52.53:894][ 25]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.02.20-18.52.53:895][ 25]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.02.20-18.52.53:895][ 25]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.02.20-18.52.53:897][ 25]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.02.20-18.52.53:897][ 25]LogExit: Exiting.
-[2015.02.20-18.52.53:920][ 25]Log file closed, 02/20/15 19:52:53
+[2015.02.21-13.10.28:947][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.02.21-13.10.28:989][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.21-13.10.29:020][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.21-13.10.29:036][  0]LogInit: Object subsystem initialized
+[2015.02.21-13.10.29:039][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.21-13.10.29:039][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.21-13.10.29:048][  0]LogInit: Computer: WHDR522
+[2015.02.21-13.10.29:048][  0]LogInit: User: Whitehead
+[2015.02.21-13.10.29:048][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.02.21-13.10.29:048][  0]LogInit: High frequency timer resolution =2.045732 MHz
+[2015.02.21-13.10.29:048][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2015.02.21-13.10.29:048][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.21-13.10.29:048][  0]LogMemory: Process Physical Memory: 48.51 MB used, 48.51 MB peak
+[2015.02.21-13.10.29:048][  0]LogMemory: Process Virtual Memory: 24.50 MB used, 24.50 MB peak
+[2015.02.21-13.10.29:048][  0]LogMemory: Physical Memory: 1446.60 MB used, 4060.61 MB total
+[2015.02.21-13.10.29:048][  0]LogMemory: Virtual Memory: 262.42 MB used, 8388608.00 MB total
+[2015.02.21-13.10.29:094][  0]LogD3D11RHI: Found D3D11 adapter 0: ATI Mobility Radeon HD 4300 Series (Feature Level 10_0)
+[2015.02.21-13.10.29:094][  0]LogD3D11RHI: Adapter has 505MB of dedicated video memory, 0MB of dedicated system memory, and 1774MB of shared system memory, 1 output[s]
+[2015.02.21-13.10.29:094][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.21-13.10.29:104][  0]LogRHI: Texture pool is 353 MB (70% of 505 MB)
+[2015.02.21-13.10.29:121][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.02.21-13.10.29:196][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.21-13.10.29:506][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.21-13.10.48:644][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-13.10.50:559][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-13.10.50:811][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.21-13.10.51:512][  0]LogDerivedDataCache: Loaded boot cache 0.70s 36MB C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.21-13.10.51:512][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.21-13.10.51:512][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.21-13.10.51:512][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.21-13.10.51:733][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.21-13.10.51:820][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Whitehead/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.21-13.10.59:734][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.21-13.11.01:351][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.21-13.11.01:352][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.21-13.11.05:730][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.21-13.11.06:089][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.21-13.11.28:877][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.21-13.11.29:836][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Binaries/Win64. Error: 0
+[2015.02.21-13.11.31:190][  0]SourceControl: Info Source control is disabled
+[2015.02.21-13.11.31:190][  0]SourceControl: Info Source control is disabled
+[2015.02.21-13.11.31:202][  0]SourceControl: Info Source control is disabled
+[2015.02.21-13.11.32:033][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.21-13.11.32:033][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.02.21-13.11.32:579][  0]LogEngine: Initializing Engine...
+[2015.02.21-13.11.33:327][  0]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.21-13.11.33:657][  0]LogInit: FAudioDevice initialized.
+[2015.02.21-13.11.33:958][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.21-13.11.34:056][  0]LogDerivedDataCache: Saved boot cache 0.06s 36MB C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.21-13.11.34:075][  0]LogInit: Texture streaming: Enabled
+[2015.02.21-13.11.34:136][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.21-13.11.34:136][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.21-13.11.34:137][  0]LogAnalytics: SetUserId f751ccbb34537ec0b5458c5212811ddb
+[2015.02.21-13.11.34:137][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.21-13.11.34:564][  0]LogInit: Transaction tracking system initialized
+[2015.02.21-13.11.35:585][  0]BlueprintLog: New page: Editor Load
+[2015.02.21-13.11.35:759][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2015.02.21-13.11.35:771][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.21-13.11.38:379][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-13.11.39:249][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-13.11.40:748][  0]LogConsoleResponse:Display: 
+[2015.02.21-13.11.42:109][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.44:130][  0]SourceControl: Info Source control is disabled
+[2015.02.21-13.11.44:172][  0]Cmd: MAP LOAD FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.21-13.11.44:210][  0]LightingResults: New page: Lighting Build
+[2015.02.21-13.11.44:413][  0]MapCheck: New page: Map Check
+[2015.02.21-13.11.44:414][  0]LightingResults: New page: Lighting Build
+[2015.02.21-13.11.44:500][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013601760
+[2015.02.21-13.11.44:641][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/wrogowie/BP_Wrog1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.44:647][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BP_AI_Controller.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.44:652][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.44:656][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BB_AI_Wrog.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.44:663][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTService_DystansDoCelu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.45:192][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTT_AI_Obrazenia.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.45:259][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTT_Set_BB_Actor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.45:317][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/AI/BTT_Set_BB_Bool.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.45:512][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/HeroTPP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.45:540][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/HeroTPP_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.46:400][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Props/drewniana_skrzynia.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.46:406][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Props/drewniana_skrzynia2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.46:413][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Props/swietlowka.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.11.49:703][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.21-13.11.49:744][  0]LogAIModule: Creating AISystem for world Level1
+[2015.02.21-13.11.49:794][  0]Cmd: MAP CHECKDEP
+[2015.02.21-13.11.49:812][  0]MapCheck: New page: Level1 - Feb 21, 2015, 3:11:49 PM
+[2015.02.21-13.11.50:042][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 247.93ms to complete.
+[2015.02.21-13.11.50:042][  0]LogFileHelpers: Loading map 'Level1' took 5.884
+[2015.02.21-13.11.51:271][  0]LogCollectionManager: Loaded 0 collections in 0.001874 seconds
+[2015.02.21-13.11.52:263][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.21-13.11.52:454][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.21-13.11.52:551][  0]LogLoad: Full Startup: 86.42 seconds (BP compile: 0.30 seconds)
+[2015.02.21-13.11.52:908][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-13.11.53:504][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x576.
+[2015.02.21-13.11.56:835][  8]LogAssetRegistry: Asset discovery search completed in 21.0864 seconds
+[2015.02.21-13.11.56:877][  8]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (43). May be truncated at the collector.
+[2015.02.21-13.12.13:997][149]Cmd: MAP LOAD FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Maps/0_TestingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.21-13.12.14:026][149]LightingResults: New page: Lighting Build
+[2015.02.21-13.12.14:068][149]LoadErrors: New page: Loading map: 0_TestingRoom.umap
+[2015.02.21-13.12.14:141][149]MapCheck: New page: Map Check
+[2015.02.21-13.12.14:141][149]LightingResults: New page: Lighting Build
+[2015.02.21-13.12.14:215][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D2265C0
+[2015.02.21-13.12.14:488][149]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.21-13.12.14:488][149]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.12.14:552][149]Cmd: MAP CHECKDEP
+[2015.02.21-13.12.14:552][149]MapCheck: New page: 0_TestingRoom - Feb 21, 2015, 3:12:14 PM
+[2015.02.21-13.12.14:698][149]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 145.841ms to complete.
+[2015.02.21-13.12.14:698][149]LogFileHelpers: Loading map '0_TestingRoom' took 0.749
+[2015.02.21-13.29.32:382][492]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Spis_Broni.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.38:191][573]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.21-13.30.40:237][601]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Postać'
+[2015.02.21-13.30.44:835][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/HeroTPP_AnimBlueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:845][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Idle_Pistol.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:850][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Jump_End.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:854][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Jump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:858][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Jump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:862][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Run.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:865][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/IdleRun_TPP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:866][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Idle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.44:887][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Walk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:245][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.21-13.30.45:246][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:246][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2015.02.21-13.30.45:247][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.21-13.30.45:247][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:247][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2015.02.21-13.30.45:247][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.21-13.30.45:248][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:248][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2015.02.21-13.30.45:248][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.21-13.30.45:249][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:249][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2015.02.21-13.30.45:249][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.21-13.30.45:250][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:250][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2015.02.21-13.30.45:250][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.21-13.30.45:251][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:251][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2015.02.21-13.30.45:251][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:252][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:252][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2015.02.21-13.30.45:252][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:253][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:253][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:254][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:267][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:267][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:268][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.21-13.30.45:268][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:268][661]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2015.02.21-13.30.45:269][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.21-13.30.45:269][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:269][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.21-13.30.45:270][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:270][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.21-13.30.45:270][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:271][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.21-13.30.45:271][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:272][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.21-13.30.45:272][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:272][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.21-13.30.45:273][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:276][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.21-13.30.45:276][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.21-13.30.45:295][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.21-13.30.45:295][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.21-13.30.45:296][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:296][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2015.02.21-13.30.45:311][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:312][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C
+[2015.02.21-13.30.45:312][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:312][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2015.02.21-13.30.45:313][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:313][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C2
+[2015.02.21-13.30.45:314][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:316][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.21-13.30.45:316][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.21-13.30.45:317][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:317][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2015.02.21-13.30.45:318][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.21-13.30.45:318][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.21-13.30.45:318][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:318][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2015.02.21-13.30.45:319][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.21-13.30.45:319][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.21-13.30.45:319][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:320][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2015.02.21-13.30.45:320][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.21-13.30.45:320][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.21-13.30.45:321][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:321][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2015.02.21-13.30.45:321][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.21-13.30.45:322][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.21-13.30.45:322][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:322][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2015.02.21-13.30.45:323][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.21-13.30.45:323][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.21-13.30.45:323][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:324][661]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2015.02.21-13.30.45:324][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.21-13.30.45:324][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint
+[2015.02.21-13.30.45:325][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:344][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:344][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_38
+[2015.02.21-13.30.45:345][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:347][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:347][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5026
+[2015.02.21-13.30.45:347][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:348][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:349][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_350
+[2015.02.21-13.30.45:349][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:350][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:350][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5038
+[2015.02.21-13.30.45:351][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:359][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:360][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_645
+[2015.02.21-13.30.45:360][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:361][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:361][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5044
+[2015.02.21-13.30.45:361][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:362][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:362][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_338
+[2015.02.21-13.30.45:362][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:364][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:364][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5053
+[2015.02.21-13.30.45:365][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:366][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:366][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableSet_997
+[2015.02.21-13.30.45:366][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:367][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.21-13.30.45:368][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5067
+[2015.02.21-13.30.45:368][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:376][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.21-13.30.45:377][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by AnimGraphNode_BlendSpacePlayer_12
+[2015.02.21-13.30.45:377][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:381][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.21-13.30.45:382][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by AnimGraphNode_SequencePlayer_100
+[2015.02.21-13.30.45:382][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:385][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.21-13.30.45:385][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by AnimGraphNode_SequencePlayer_222
+[2015.02.21-13.30.45:385][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:394][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.21-13.30.45:394][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_39
+[2015.02.21-13.30.45:394][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:408][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.21-13.30.45:408][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_170
+[2015.02.21-13.30.45:408][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:415][661]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.21-13.30.45:415][661]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by AnimGraphNode_BlendSpacePlayer_67
+[2015.02.21-13.30.45:416][661]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.21-13.30.45:515][661]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2015.02.21-13.30.45:518][661]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Crouch Button Down' variable not found. Base class was probably changed.
+[2015.02.21-13.30.45:518][661]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2015.02.21-13.30.45:570][661]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.02.21-13.30.45:570][661]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.21-13.30.45:571][661]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.21-13.30.45:572][661]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.21-13.30.45:572][661]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.21-13.30.45:573][661]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.02.21-13.30.45:579][661]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.02.21-13.30.45:580][661]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.02.21-13.30.45:584][661]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Jump Button Down" in 'ASP_HeroTPP_AnimBlueprint'.
+Make sure 'ASP_HeroTPP_AnimBlueprint' has been compiled for  Set Jump Button Down 
+[2015.02.21-13.30.45:584][661]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Crouch Button Down" in 'ASP_HeroTPP_AnimBlueprint'.
+Make sure 'ASP_HeroTPP_AnimBlueprint' has been compiled for  Get Crouch Button Down 
+[2015.02.21-13.30.45:586][661]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Jump Button Down" in 'ASP_HeroTPP_AnimBlueprint'.
+Make sure 'ASP_HeroTPP_AnimBlueprint' has been compiled for  Get Jump Button Down 
+[2015.02.21-13.30.45:593][661]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2015.02.21-13.30.45:593][661]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2015.02.21-13.30.45:593][661]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2015.02.21-13.30.45:595][661]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2015.02.21-13.30.45:596][661]LogBlueprint:Error: [compiler] Error The property associated with  Crouch Button Down  could not be found
+[2015.02.21-13.30.45:596][661]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2015.02.21-13.30.45:635][661]LogBlueprint:Warning: [compiler] Warning [1219.50] Compile of ASP_HeroTPP_AnimBlueprint failed. 14 Fatal Issue(s) 3 Warning(s) [in 116 ms]
+[2015.02.21-13.30.45:639][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Animations/Reload_Pistol.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:800][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Interfejs/HUD_States.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:861][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Audio/Broń/Glock/glock18-1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:863][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Audio/Broń/Glock/glock_reload_sound.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:882][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Broń/dubeltowka.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:890][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Broń/glock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:896][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Broń/knife.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:914][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Broń/uzi.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.45:927][661]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Props/HeroTPP_Physics.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.30.48:312][661]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.30.48:423][661]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.30.48:958][661]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.30.48:960][661]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.31.22:420][191]LogRenderer:Warning: Reallocating scene render targets to support 1152x576.
+[2015.02.21-13.32.44:016][436]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/0_TestingRoom' took 0.221
+[2015.02.21-13.32.44:071][436]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/Bonusy/Ammo] ([1] browsable assets)...
+[2015.02.21-13.32.44:107][436]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/Bonusy/Ammo.Ammo]
+[2015.02.21-13.32.44:107][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Bonusy/Ammo]
+[2015.02.21-13.32.44:582][436]LogSavePackage: Save=407.695618ms
+[2015.02.21-13.32.44:583][436]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo_Auto13A364FC34475A45F7FF688BADFF0C0C9.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Mechanika/Bonusy/Ammo_Auto1.uasset'
+[2015.02.21-13.32.44:656][436]LogFileHelpers: Auto-saving content packages took 0.640
+[2015.02.21-13.36.04:398][816]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-13.37.50:082][933]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-13.38.49:997][631]BlueprintLog: New page: Compile Ammo_interface
+[2015.02.21-13.38.50:270][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.21-13.38.50:270][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2015.02.21-13.38.50:395][631]BlueprintEditorCompileResults: Info [1704.25] Compile of Ammo_interface successful! [in 386 ms]
+[2015.02.21-13.38.51:125][649]LogSavePackage: Save=18.851442ms
+[2015.02.21-13.38.51:125][649]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo_interfaceC6CC79F845182F00CA1C269748D8BB65.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/Ammo_interface.uasset'
+[2015.02.21-13.38.54:801][767]BlueprintLog: New page: Compile Ammo
+[2015.02.21-13.38.55:181][767]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.38.55:184][767]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.38.55:246][767]BlueprintEditorCompileResults: Info [1709.11] Compile of Ammo successful! [in 434 ms]
+[2015.02.21-13.40.15:291][831]BlueprintLog: New page: Compile Ammo
+[2015.02.21-13.40.15:519][831]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.40.15:520][831]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.40.15:580][831]BlueprintEditorCompileResults: Info [1789.45] Compile of Ammo successful! [in 274 ms]
+[2015.02.21-13.40.31:928][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Bonusy/Ammo" FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/Ammo.uasset" SILENT=true
+[2015.02.21-13.40.32:187][514]LogSavePackage: Save=247.057281ms
+[2015.02.21-13.40.32:187][514]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo74BCE33D43D659A4DF06C78BC10155AA.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/Ammo.uasset'
+[2015.02.21-13.41.30:019][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.41.30:020][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.42.45:610][300]LogSavePackage: Save=102.734375ms
+[2015.02.21-13.42.45:610][300]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/0_TestingRoom_Auto28E6FE54F49DA6F90A5C9DA9598C5D5E2.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Maps/0_TestingRoom_Auto2.umap'
+[2015.02.21-13.42.45:664][300]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/0_TestingRoom' took 0.387
+[2015.02.21-13.42.45:664][300]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.387
+[2015.02.21-13.42.45:676][300]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Postać/BP_Postac] ([1] browsable assets)...
+[2015.02.21-13.42.45:710][300]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Postać/BP_Postac.BP_Postac]
+[2015.02.21-13.42.45:710][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Postać/BP_Postac]
+[2015.02.21-13.42.46:669][300]LogSavePackage: Save=922.939087ms
+[2015.02.21-13.42.46:669][300]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BP_Postac_Auto24BF1DAD7403F953222A34291A4F7EC28.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Postać/BP_Postac_Auto2.uasset'
+[2015.02.21-13.42.46:761][300]LogFileHelpers: Auto-saving content packages took 1.097
+[2015.02.21-13.43.14:591][495]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.14:593][495]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.14:632][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.21-13.43.14:632][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.02.21-13.43.41:597][492]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-13.43.41:603][492]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.21-13.43.41:780][492]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.41:782][492]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.41:833][492]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-13.43.42:309][492]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.42:311][492]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.42:459][492]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.42:460][492]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.43.42:733][492]LogPlayLevel: PIE:  Blueprint regeneration took 1135 ms (2 blueprints)
+[2015.02.21-13.43.45:335][492]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:43:45 PM)
+[2015.02.21-13.43.45:439][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025515s)
+[2015.02.21-13.43.45:442][492]LogPlayLevel: PIE: World Init took: (0.002406s)
+[2015.02.21-13.43.45:442][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.028414s)
+[2015.02.21-13.43.45:550][492]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/BP_TrybGry.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.43.45:573][492]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Interfejs/BP_HUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.43.45:697][492]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Interfejs/BB_UI_HP_Widget.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.43.45:931][492]LogLinker:Warning: Asset '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Textures/6dtE3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-13.43.46:112][492]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.43.46:297][492]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.43.46:299][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.43.46
+[2015.02.21-13.43.46:310][492]LogWorld: Bringing up level for play took: 0.012330
+[2015.02.21-13.43.46:656][492]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.43.46:704][492]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 5.843
+[2015.02.21-13.43.48:367][529]LogBlueprintUserMessages: Glocky
+[2015.02.21-13.43.53:235][694]LogBlueprintUserMessages: Dubeltówka
+[2015.02.21-13.43.58:063][871]LogBlueprintUserMessages: Pistolet maszynowy
+[2015.02.21-13.44.03:054][ 51]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.44.03:171][ 55]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.44.03:287][ 59]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.44.04:340][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000213F1080
+[2015.02.21-13.45.45:701][254]LogEditorTransaction: Undo Delete current selection
+[2015.02.21-13.45.45:913][254]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.45.45:915][254]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.03:165][676]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.21-13.46.03:239][676]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.21-13.46.03:254][676]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Postać/BP_Postac.BP_Postac:Atak_1.K2Node_VariableGet_695 or K2Node_VariableGet /Game/Blueprints/Postać/BP_Postac.BP_Postac:EventGraph.K2Node_VariableGet_695
+[2015.02.21-13.46.23:157][157]BlueprintLog: New page: Compile BP_Postac
+[2015.02.21-13.46.23:755][157]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.23:757][157]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.24:116][157]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.24:118][157]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.24:185][157]BlueprintEditorCompileResults: Info [2158.05] Compile of BP_Postac successful! [in 668 ms]
+[2015.02.21-13.46.40:618][654]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-13.46.40:641][654]LogPlayLevel: [PIE] Compiling Ammo before PIE...
+[2015.02.21-13.46.40:881][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.40:883][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.40:998][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.41:000][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.41:065][654]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-13.46.41:662][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.41:663][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.41:846][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.41:848][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.46.42:036][654]LogPlayLevel: PIE:  Blueprint regeneration took 1418 ms (2 blueprints)
+[2015.02.21-13.46.42:037][654]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:46:42 PM)
+[2015.02.21-13.46.42:042][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004435s)
+[2015.02.21-13.46.42:044][654]LogPlayLevel: PIE: World Init took: (0.001882s)
+[2015.02.21-13.46.42:044][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.006686s)
+[2015.02.21-13.46.42:080][654]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.46.42:082][654]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.46.42:084][654]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.46.42
+[2015.02.21-13.46.42:085][654]LogWorld: Bringing up level for play took: 0.001892
+[2015.02.21-13.46.42:088][654]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.46.42:089][654]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 1.228
+[2015.02.21-13.46.44:368][723]LogBlueprintUserMessages: Dubeltówka
+[2015.02.21-13.46.44:956][746]LogBlueprintUserMessages: Glocky
+[2015.02.21-13.46.49:535][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000292654E0
+[2015.02.21-13.47.14:503][545]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.21-13.47.29:379][834]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-13.47.29:462][834]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.29:464][834]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.29:530][834]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-13.47.30:141][834]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.30:143][834]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.30:324][834]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.30:326][834]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.30:514][834]LogPlayLevel: PIE:  Blueprint regeneration took 1135 ms (1 blueprints)
+[2015.02.21-13.47.30:514][834]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:47:30 PM)
+[2015.02.21-13.47.30:520][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004756s)
+[2015.02.21-13.47.30:523][834]LogPlayLevel: PIE: World Init took: (0.002902s)
+[2015.02.21-13.47.30:523][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.008026s)
+[2015.02.21-13.47.30:558][834]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.47.30:560][834]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.47.30:562][834]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.47.30
+[2015.02.21-13.47.30:563][834]LogWorld: Bringing up level for play took: 0.001969
+[2015.02.21-13.47.30:566][834]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.47.30:567][834]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 1.706
+[2015.02.21-13.47.31:543][866]LogBlueprintUserMessages: Dubeltówka
+[2015.02.21-13.47.33:078][920]LogBlueprintUserMessages: Glocky
+[2015.02.21-13.47.41:337][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000251CEAC0
+[2015.02.21-13.47.52:893][447]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.52:894][447]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.47.59:949][585]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-13.48.00:087][585]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.00:089][585]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.00:155][585]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-13.48.00:772][585]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.00:774][585]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.01:025][585]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.01:027][585]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.01:223][585]LogPlayLevel: PIE:  Blueprint regeneration took 1273 ms (1 blueprints)
+[2015.02.21-13.48.01:223][585]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:48:01 PM)
+[2015.02.21-13.48.01:229][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005210s)
+[2015.02.21-13.48.01:231][585]LogPlayLevel: PIE: World Init took: (0.001797s)
+[2015.02.21-13.48.01:231][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.007343s)
+[2015.02.21-13.48.01:273][585]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.48.01:276][585]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.48.01:277][585]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.48.01
+[2015.02.21-13.48.01:278][585]LogWorld: Bringing up level for play took: 0.001888
+[2015.02.21-13.48.01:281][585]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.48.01:282][585]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 0.421
+[2015.02.21-13.48.01:802][602]LogBlueprintUserMessages: Dubeltówka
+[2015.02.21-13.48.02:288][619]LogBlueprintUserMessages: Glocky
+[2015.02.21-13.48.14:490][ 52]LogBlueprintUserMessages: Pistolet maszynowy
+[2015.02.21-13.48.26:165][476]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.48.29:059][582]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.48.32:115][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025BDD4E0
+[2015.02.21-13.48.56:755][237]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-13.48.56:886][237]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.56:887][237]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.56:953][237]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-13.48.57:559][237]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.57:561][237]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.57:746][237]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.57:748][237]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.48.57:937][237]LogPlayLevel: PIE:  Blueprint regeneration took 1182 ms (1 blueprints)
+[2015.02.21-13.48.57:937][237]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:48:57 PM)
+[2015.02.21-13.48.57:943][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004340s)
+[2015.02.21-13.48.57:945][237]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2015.02.21-13.48.57:945][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.006884s)
+[2015.02.21-13.48.57:981][237]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.48.57:983][237]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.48.57:985][237]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.48.57
+[2015.02.21-13.48.57:986][237]LogWorld: Bringing up level for play took: 0.001924
+[2015.02.21-13.48.57:989][237]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.48.57:990][237]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 1.129
+[2015.02.21-13.48.59:225][277]LogBlueprintUserMessages: Pistolet maszynowy
+[2015.02.21-13.49.09:264][642]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.49.10:368][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D16E480
+[2015.02.21-13.49.37:331][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.49.37:333][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.49.37:555][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.49.37:557][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.50.12:405][178]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.50.12:407][178]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.50.22:074][398]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.50.22:076][398]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.52.11:563][633]BlueprintLog: New page: Compile BP_Postac
+[2015.02.21-13.52.12:126][633]LogBlueprint:Error: [compiler] Error Could not find a pin for the parameter Pomyslnie Przeladowano of bron_przeladuj on  Bron Przeladuj 
+[2015.02.21-13.52.12:186][633]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.52.12:188][633]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.52.12:713][633]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.52.12:715][633]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.52.12:783][633]LogBlueprint:Warning: [compiler] Warning [2506.65] Compile of BP_Postac failed. 1 Fatal Issue(s) 0 Warning(s) [in 844 ms]
+[2015.02.21-13.52.12:784][633]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter Pomyslnie Przeladowano of bron_przeladuj on  Bron Przeladuj 
+[2015.02.21-13.52.12:784][633]BlueprintEditorCompileResults:Warning: Warning [2506.65] Compile of BP_Postac failed. 1 Fatal Issue(s) 0 Warning(s) [in 844 ms]
+[2015.02.21-13.53.07:758][838]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-13.53.07:888][838]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.53.07:890][838]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.53.07:963][838]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-13.53.08:571][838]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.53.08:573][838]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.53.08:779][838]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.53.08:780][838]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.53.08:978][838]LogPlayLevel: PIE:  Blueprint regeneration took 1220 ms (1 blueprints)
+[2015.02.21-13.53.08:979][838]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:53:08 PM)
+[2015.02.21-13.53.08:986][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006193s)
+[2015.02.21-13.53.08:988][838]LogPlayLevel: PIE: World Init took: (0.002211s)
+[2015.02.21-13.53.08:988][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.008761s)
+[2015.02.21-13.53.09:024][838]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.53.09:027][838]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.53.09:028][838]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.53.09
+[2015.02.21-13.53.09:029][838]LogWorld: Bringing up level for play took: 0.001898
+[2015.02.21-13.53.09:033][838]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.53.09:034][838]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 2.173
+[2015.02.21-13.53.09:914][866]LogBlueprintUserMessages: Dubeltówka
+[2015.02.21-13.53.11:414][919]LogBlueprintUserMessages: Pistolet maszynowy
+[2015.02.21-13.53.22:571][322]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.53.23:090][341]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.53.23:309][349]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.53.24:054][376]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:163][380]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:273][384]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:359][387]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.53.24:387][388]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:510][392]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:535][393]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.53.24:705][399]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:785][402]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:897][406]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.24:897][406]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.25:004][410]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.25:113][414]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.25:170][416]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.53.25:223][418]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.53.25:555][430]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.53.26:355][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FFE4400
+[2015.02.21-13.54.34:594][225]LogSavePackage: Save=96.499443ms
+[2015.02.21-13.54.34:594][225]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/0_TestingRoom_Auto3B2ACE8D74D5A4C206B6049967826A50C.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Maps/0_TestingRoom_Auto3.umap'
+[2015.02.21-13.54.34:656][225]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/0_TestingRoom' took 0.409
+[2015.02.21-13.54.34:656][225]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.409
+[2015.02.21-13.54.34:674][225]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/Bonusy/Ammo] ([1] browsable assets)...
+[2015.02.21-13.54.34:710][225]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/Bonusy/Ammo.Ammo]
+[2015.02.21-13.54.34:711][225]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Bonusy/Ammo]
+[2015.02.21-13.54.35:119][225]LogSavePackage: Save=362.612000ms
+[2015.02.21-13.54.35:119][225]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo_Auto3FF7D70B44A844F65D37F7EAE48BE1212.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Mechanika/Bonusy/Ammo_Auto3.uasset'
+[2015.02.21-13.54.35:244][225]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Postać/BP_Postac] ([1] browsable assets)...
+[2015.02.21-13.54.35:284][225]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Postać/BP_Postac.BP_Postac]
+[2015.02.21-13.54.35:284][225]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Postać/BP_Postac]
+[2015.02.21-13.54.36:408][225]LogSavePackage: Save=1085.245728ms
+[2015.02.21-13.54.36:408][225]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BP_Postac_Auto38F060F564A83A12706AFD7BE071D5ED7.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Postać/BP_Postac_Auto3.uasset'
+[2015.02.21-13.54.36:478][225]LogFileHelpers: Auto-saving content packages took 1.822
+[2015.02.21-13.55.21:364][481]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.21-13.55.21:364][481]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:55:21 PM)
+[2015.02.21-13.55.21:371][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006266s)
+[2015.02.21-13.55.21:374][481]LogPlayLevel: PIE: World Init took: (0.003277s)
+[2015.02.21-13.55.21:375][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.009935s)
+[2015.02.21-13.55.21:412][481]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.55.21:414][481]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.55.21:416][481]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.55.21
+[2015.02.21-13.55.21:417][481]LogWorld: Bringing up level for play took: 0.002353
+[2015.02.21-13.55.21:420][481]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.55.21:422][481]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 0.56
+[2015.02.21-13.55.23:481][548]LogBlueprintUserMessages: Dubeltówka
+[2015.02.21-13.55.24:084][570]LogBlueprintUserMessages: Glocky
+[2015.02.21-13.55.35:728][981]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.35:992][990]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.36:707][ 16]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.36:957][ 25]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.37:174][ 33]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.37:393][ 41]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.37:654][ 50]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.37:861][ 57]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.38:149][ 67]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.38:409][ 76]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.38:616][ 83]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.55.38:993][ 96]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.55.39:392][110]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.55.39:666][120]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.55.40:056][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.21-13.55.40:056][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2015.02.21-13.55.40:158][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002899D760
+[2015.02.21-13.55.50:685][394]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.56.01:548][782]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.21-13.56.05:697][843]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.02.21-13.56.48:116][552]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Bonusy'
+[2015.02.21-13.56.56:359][781]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2015.02.21-13.56.57:434][798]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-13.56.59:951][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.21-13.56.59:951][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_3) Not registered. Aborting.
+[2015.02.21-13.56.59:951][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.21-13.57.00:634][831]LogSavePackage: Save=69.987663ms
+[2015.02.21-13.57.00:634][831]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/0_TestingRoom0B8D70EC46400B39C40847BBF06F835A.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Maps/0_TestingRoom.umap'
+[2015.02.21-13.57.00:752][831]LogFileHelpers: Saving map '0_TestingRoom' took 0.630
+[2015.02.21-13.57.00:760][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Bonusy/Ammo" FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/Ammo.uasset" SILENT=true
+[2015.02.21-13.57.00:820][831]LogSavePackage: Save=25.925194ms
+[2015.02.21-13.57.00:820][831]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo20B568E2435E5921A7AC799136D74AB3.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/Ammo.uasset'
+[2015.02.21-13.57.00:841][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Postać/BP_Postac" FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset" SILENT=true
+[2015.02.21-13.57.01:406][831]LogSavePackage: Save=548.840210ms
+[2015.02.21-13.57.01:406][831]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BP_Postac2875E6274F019AA12E448F9ED281DBF6.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset'
+[2015.02.21-13.57.47:275][ 58]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.57.47:972][ 58]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_Ammo_C' or package '/Game/Blueprints/Mechanika/Bonusy/Ammo'.
+[2015.02.21-13.57.47:988][ 58]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_BP_Postac_C' or package '/Game/Blueprints/Postać/BP_Postac'.
+[2015.02.21-13.57.47:988][ 58]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Ammo_interface_C_0' or package '/Engine/Transient'.
+[2015.02.21-13.57.47:988][ 58]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Ammo_interface_C_1' or package '/Engine/Transient'.
+[2015.02.21-13.57.47:988][ 58]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Ammo_interface_C_214' or package '/Engine/Transient'.
+[2015.02.21-13.57.47:988][ 58]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Ammo_interface_C_213' or package '/Engine/Transient'.
+[2015.02.21-13.57.48:019][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.21-13.57.48:019][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_4) Not registered. Aborting.
+[2015.02.21-13.57.48:308][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EFA9080
+[2015.02.21-13.57.48:311][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000169B0FE0
+[2015.02.21-13.57.51:530][104]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Drzwi'
+[2015.02.21-13.57.54:084][148]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Zwyciestwo'
+[2015.02.21-13.57.55:514][174]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-13.58.05:360][436]BlueprintLog: New page: Compile Ammo
+[2015.02.21-13.58.05:567][436]BlueprintEditorCompileResults: Info [2859.43] Compile of Ammo successful! [in 197 ms]
+[2015.02.21-13.58.08:607][493]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-13.58.08:619][493]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-13.58.09:233][493]LogPlayLevel: PIE:  Blueprint regeneration took 626 ms (1 blueprints)
+[2015.02.21-13.58.09:233][493]PIE: New page: PIE session: 0_TestingRoom (Feb 21, 2015, 3:58:09 PM)
+[2015.02.21-13.58.09:237][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003750s)
+[2015.02.21-13.58.09:240][493]LogPlayLevel: PIE: World Init took: (0.002451s)
+[2015.02.21-13.58.09:240][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.006540s)
+[2015.02.21-13.58.09:277][493]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.21-13.58.09:279][493]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.21-13.58.09:280][493]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.21-14.58.09
+[2015.02.21-13.58.09:281][493]LogWorld: Bringing up level for play took: 0.001452
+[2015.02.21-13.58.09:283][493]LogBlueprintUserMessages: Nóż
+[2015.02.21-13.58.09:284][493]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 0.423
+[2015.02.21-13.58.10:434][528]LogBlueprintUserMessages: Dubeltówka
+[2015.02.21-13.58.12:429][599]LogBlueprintUserMessages: Pistolet maszynowy
+[2015.02.21-13.58.22:792][976]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.21-13.58.23:397][998]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.58.23:506][  2]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.58.23:615][  6]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.21-13.58.24:121][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E48B7E0
+[2015.02.21-13.58.36:609][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2015.02.21-13.58.37:604][274]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Postać'
+[2015.02.21-13.58.41:106][310]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.58.41:112][310]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.58.41:244][310]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-13.58.41:246][310]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.00.41:976][494]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.00.41:978][494]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.00.42:030][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.21-14.00.42:030][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_5) Not registered. Aborting.
+[2015.02.21-14.01.04:881][163]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.01.04:883][163]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.01.06:115][201]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.01.06:117][201]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.07.16:550][546]LogSavePackage: Save=57.967026ms
+[2015.02.21-14.07.16:550][546]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/0_TestingRoom_Auto43D8B4EE9430265C4A034A3BB01DB8F85.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Maps/0_TestingRoom_Auto4.umap'
+[2015.02.21-14.07.16:577][546]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/0_TestingRoom' took 0.288
+[2015.02.21-14.07.16:577][546]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.288
+[2015.02.21-14.07.16:594][546]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/Bonusy/Ammo] ([1] browsable assets)...
+[2015.02.21-14.07.16:626][546]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/Bonusy/Ammo.Ammo]
+[2015.02.21-14.07.16:626][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Bonusy/Ammo]
+[2015.02.21-14.07.16:940][546]LogSavePackage: Save=288.956238ms
+[2015.02.21-14.07.16:940][546]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo_Auto4E6741C8C4A69527E2EA3E48B2E86396F.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Mechanika/Bonusy/Ammo_Auto4.uasset'
+[2015.02.21-14.07.16:963][546]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Postać/BP_Postac] ([1] browsable assets)...
+[2015.02.21-14.07.16:995][546]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Postać/BP_Postac.BP_Postac]
+[2015.02.21-14.07.16:995][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Postać/BP_Postac]
+[2015.02.21-14.07.17:908][546]LogSavePackage: Save=887.143555ms
+[2015.02.21-14.07.17:908][546]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BP_Postac_Auto49929B0A149CF1BEF4B29D3BB7D4C50CE.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Postać/BP_Postac_Auto4.uasset'
+[2015.02.21-14.07.17:919][546]LogFileHelpers: Auto-saving content packages took 1.342
+[2015.02.21-14.09.01:481][169]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-14.09.07:056][350]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-14.09.25:038][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.02.21-14.09.25:038][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_6) Not registered. Aborting.
+[2015.02.21-14.11.04:855][382]BlueprintLog: New page: Compile BI_Ammo
+[2015.02.21-14.11.05:102][382]BlueprintEditorCompileResults: Info [3638.97] Compile of BI_Ammo successful! [in 245 ms]
+[2015.02.21-14.11.33:482][793]BlueprintLog: New page: Compile Ammo
+[2015.02.21-14.11.33:500][793]LogBlueprint:Error: [compiler] Error Default value '' for  Torba Dodane  is invalid: 'Array inputs (like 'Torba Dodane') must have an input wired into them (try connecting a MakeArray node).'
+[2015.02.21-14.11.33:928][793]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.11.33:930][793]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.11.33:981][793]LogBlueprint:Warning: [compiler] Warning [3667.85] Compile of Ammo failed. 1 Fatal Issue(s) 0 Warning(s) [in 490 ms]
+[2015.02.21-14.11.33:982][793]BlueprintEditorCompileResults:Error: Error Default value '' for  Torba Dodane  is invalid: 'Array inputs (like 'Torba Dodane') must have an input wired into them (try connecting a MakeArray node).'
+[2015.02.21-14.11.33:982][793]BlueprintEditorCompileResults:Warning: Warning [3667.85] Compile of Ammo failed. 1 Fatal Issue(s) 0 Warning(s) [in 490 ms]
+[2015.02.21-14.13.51:709][286]BlueprintLog: New page: Compile Ammo
+[2015.02.21-14.13.52:053][286]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.13.52:054][286]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.13.52:126][286]BlueprintEditorCompileResults: Info [3805.99] Compile of Ammo successful! [in 403 ms]
+[2015.02.21-14.13.56:515][424]BlueprintLog: New page: Compile BI_Ammo
+[2015.02.21-14.13.56:822][424]BlueprintEditorCompileResults: Info [3810.69] Compile of BI_Ammo successful! [in 304 ms]
+[2015.02.21-14.14.00:783][577]LogSavePackage: Save=5.202539ms
+[2015.02.21-14.14.00:783][577]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BI_Ammo2522E88848D968AEE979AFA1537DB17A.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/BI_Ammo.uasset'
+[2015.02.21-14.14.03:741][644]BlueprintLog: New page: Compile Ammo
+[2015.02.21-14.14.04:040][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.14.04:042][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.14.04:108][644]BlueprintEditorCompileResults: Info [3817.98] Compile of Ammo successful! [in 353 ms]
+[2015.02.21-14.14.08:180][754]BlueprintLog: New page: Compile BP_Postac
+[2015.02.21-14.14.08:784][754]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.14.08:786][754]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.14.09:022][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F0A9BC0
+[2015.02.21-14.14.09:134][754]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.14.09:136][754]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.14.09:201][754]BlueprintEditorCompileResults: Info [3823.07] Compile of BP_Postac successful! [in 647 ms]
+[2015.02.21-14.17.18:898][736]LogSavePackage: Save=82.099220ms
+[2015.02.21-14.17.18:899][736]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/0_TestingRoom_Auto5C783742B4CFB309524B855B60B1B4F6C.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Maps/0_TestingRoom_Auto5.umap'
+[2015.02.21-14.17.18:940][736]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/0_TestingRoom' took 0.333
+[2015.02.21-14.17.18:940][736]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.333
+[2015.02.21-14.17.18:959][736]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/Bonusy/Ammo] ([1] browsable assets)...
+[2015.02.21-14.17.18:996][736]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/Bonusy/Ammo.Ammo]
+[2015.02.21-14.17.18:996][736]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Bonusy/Ammo]
+[2015.02.21-14.17.19:371][736]LogSavePackage: Save=355.418976ms
+[2015.02.21-14.17.19:371][736]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo_Auto55B4B59074D1E256FF5033DBCEB360F1D.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Mechanika/Bonusy/Ammo_Auto5.uasset'
+[2015.02.21-14.17.19:475][736]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Postać/BP_Postac] ([1] browsable assets)...
+[2015.02.21-14.17.19:515][736]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Postać/BP_Postac.BP_Postac]
+[2015.02.21-14.17.19:515][736]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Postać/BP_Postac]
+[2015.02.21-14.17.20:764][736]LogSavePackage: Save=1217.007446ms
+[2015.02.21-14.17.20:764][736]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BP_Postac_Auto55A5822714561AA75AC642EBDC3AFF6E5.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Postać/BP_Postac_Auto5.uasset'
+[2015.02.21-14.17.20:778][736]LogFileHelpers: Auto-saving content packages took 1.838
+[2015.02.21-14.23.02:191][123]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.02:192][123]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.02:231][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.02.21-14.23.02:231][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_7) Not registered. Aborting.
+[2015.02.21-14.23.50:472][617]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-14.23.50:558][617]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.50:560][617]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.50:635][617]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2015.02.21-14.23.51:102][617]LogBlueprint:Error: [compiler] Error Message node  Get Ammo Torba Dodane
+Using Interface BI_Ammo_C  must have a self pin connection.
+[2015.02.21-14.23.51:179][617]LogBlueprint:Error: [compiler] Error Default value '' for  Torba Dodane  is invalid: 'Array inputs (like 'Torba Dodane') must have an input wired into them (try connecting a MakeArray node).'
+[2015.02.21-14.23.51:227][617]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.51:229][617]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.51:574][617]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.51:576][617]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.23.51:642][617]LogBlueprint:Warning: [compiler] Warning [4405.51] Compile of BP_Postac failed. 2 Fatal Issue(s) 0 Warning(s) [in 645 ms]
+[2015.02.21-14.23.51:782][617]LogPlayLevel: PIE:  Blueprint regeneration took 1310 ms (1 blueprints)
+[2015.02.21-14.23.53:722][617]BlueprintLog: Info Blueprint BP_Postac failed to compile
+[2015.02.21-14.24.10:665][ 50]BlueprintLog: New page: Compile BP_Postac
+[2015.02.21-14.24.11:217][ 50]LogBlueprint:Error: [compiler] Error Default value '' for  Torba Dodane  is invalid: 'Array inputs (like 'Torba Dodane') must have an input wired into them (try connecting a MakeArray node).'
+[2015.02.21-14.24.11:263][ 50]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.24.11:265][ 50]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.24.11:783][ 50]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.24.11:784][ 50]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.21-14.24.11:849][ 50]LogBlueprint:Warning: [compiler] Warning [4425.72] Compile of BP_Postac failed. 1 Fatal Issue(s) 0 Warning(s) [in 814 ms]
+[2015.02.21-14.24.11:850][ 50]BlueprintEditorCompileResults:Error: Error Default value '' for  Torba Dodane  is invalid: 'Array inputs (like 'Torba Dodane') must have an input wired into them (try connecting a MakeArray node).'
+[2015.02.21-14.24.11:850][ 50]BlueprintEditorCompileResults:Warning: Warning [4425.72] Compile of BP_Postac failed. 1 Fatal Issue(s) 0 Warning(s) [in 814 ms]
+[2015.02.21-14.24.15:363][160]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.21-14.24.15:364][160]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Postać'
+[2015.02.21-14.25.08:033][455]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Bonusy'
+[2015.02.21-14.25.32:862][568]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/wrogowie'
+[2015.02.21-14.25.34:644][595]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Postać'
+[2015.02.21-14.27.21:391][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.02.21-14.27.21:392][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_8) Not registered. Aborting.
+[2015.02.21-14.27.21:392][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.02.21-14.27.21:520][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/0_TestingRoom' took 0.129
+[2015.02.21-14.27.21:569][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Postać/BP_Postac] ([1] browsable assets)...
+[2015.02.21-14.27.21:608][404]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Postać/BP_Postac.BP_Postac]
+[2015.02.21-14.27.21:608][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Postać/BP_Postac]
+[2015.02.21-14.27.22:712][404]LogSavePackage: Save=995.209534ms
+[2015.02.21-14.27.22:712][404]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BP_Postac_Auto61EA77D8440813B46D538FFAFE9C38BFD.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Autosaves/Game/Blueprints/Postać/BP_Postac_Auto6.uasset'
+[2015.02.21-14.27.22:744][404]LogFileHelpers: Auto-saving content packages took 1.224
+[2015.02.21-14.29.23:811][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.02.21-14.29.23:811][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_9) Not registered. Aborting.
+[2015.02.21-14.29.25:203][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Bonusy/Ammo" FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/Ammo.uasset" SILENT=true
+[2015.02.21-14.29.25:343][648]LogSavePackage: Save=41.193081ms
+[2015.02.21-14.29.25:343][648]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/Ammo9E7C97C74BD38A17DCAE099C7A216225.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Mechanika/Bonusy/Ammo.uasset'
+[2015.02.21-14.29.25:383][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Postać/BP_Postac" FILE="../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset" SILENT=true
+[2015.02.21-14.29.26:027][648]LogSavePackage: Save=625.658691ms
+[2015.02.21-14.29.26:027][648]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/BP_Postac02735BCE467AF92BD60EC4A8ABE55BD7.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Blueprints/Postać/BP_Postac.uasset'
+[2015.02.21-14.29.26:521][648]LogSavePackage: Save=61.132153ms
+[2015.02.21-14.29.26:521][648]LogSavePackage: Moving '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Saved/0_TestingRoomDD3CE6414E955D9C4939508BD4A7F0C2.tmp' to '../../../../../../../Jablo/Jablo-czysto/Jablo-na-czysto/Projekt_UE4/Content/Maps/0_TestingRoom.umap'
+[2015.02.21-14.29.26:576][648]LogFileHelpers: Saving map '0_TestingRoom' took 0.502
+[2015.02.21-14.29.27:977][649]Cmd: QUIT_EDITOR
+[2015.02.21-14.29.29:086][649]LogExit: Preparing to exit.
+[2015.02.21-14.29.30:094][649]LogExit: Editor shut down
+[2015.02.21-14.29.30:096][649]LogExit: Transaction tracking system shut down
+[2015.02.21-14.29.30:104][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C566C00
+[2015.02.21-14.29.30:105][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C551EE0
+[2015.02.21-14.29.30:109][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018657920
+[2015.02.21-14.29.30:113][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3B0900
+[2015.02.21-14.29.30:114][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002734C220
+[2015.02.21-14.29.30:115][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000212A2480
+[2015.02.21-14.29.31:023][649]LogExit: Object subsystem successfully closed.
+[2015.02.21-14.29.31:474][649]LogModuleManager: Shutting down and abandoning module TextureEditor (173)
+[2015.02.21-14.29.31:475][649]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.21-14.29.31:475][649]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.02.21-14.29.31:475][649]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.02.21-14.29.31:475][649]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.02.21-14.29.31:475][649]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.02.21-14.29.31:475][649]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.02.21-14.29.31:475][649]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.21-14.29.31:494][649]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.21-14.29.31:494][649]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.21-14.29.31:523][649]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.21-14.29.31:543][649]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.21-14.29.31:544][649]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.21-14.29.31:545][649]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.21-14.29.31:563][649]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.21-14.29.31:580][649]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.21-14.29.31:603][649]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.21-14.29.31:603][649]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.21-14.29.31:603][649]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.21-14.29.31:604][649]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.21-14.29.31:692][649]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.21-14.29.31:713][649]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.21-14.29.31:716][649]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.21-14.29.31:717][649]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.21-14.29.31:717][649]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.21-14.29.31:717][649]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.21-14.29.31:717][649]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.21-14.29.31:717][649]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.21-14.29.31:717][649]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.21-14.29.31:734][649]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.21-14.29.31:892][649]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.21-14.29.31:909][649]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.21-14.29.31:909][649]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.21-14.29.31:909][649]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.21-14.29.31:909][649]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.21-14.29.31:909][649]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.21-14.29.31:909][649]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.21-14.29.31:922][649]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.21-14.29.31:930][649]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.21-14.29.31:931][649]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.21-14.29.31:946][649]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.21-14.29.31:946][649]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.21-14.29.31:947][649]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.21-14.29.31:947][649]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.21-14.29.31:947][649]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.21-14.29.31:947][649]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.21-14.29.31:950][649]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.21-14.29.31:950][649]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.21-14.29.31:950][649]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.21-14.29.31:950][649]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.21-14.29.31:950][649]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.21-14.29.31:951][649]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.21-14.29.31:973][649]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.02.21-14.29.31:990][649]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.02.21-14.29.32:090][649]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.02.21-14.29.32:090][649]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.02.21-14.29.32:090][649]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.21-14.29.32:096][649]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.21-14.29.32:096][649]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.21-14.29.32:097][649]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.21-14.29.32:097][649]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.21-14.29.32:097][649]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.21-14.29.32:128][649]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.21-14.29.32:128][649]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.21-14.29.32:139][649]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.21-14.29.32:139][649]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.21-14.29.32:140][649]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.21-14.29.32:158][649]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.21-14.29.32:182][649]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.21-14.29.32:182][649]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.21-14.29.32:198][649]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.21-14.29.32:198][649]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.21-14.29.32:207][649]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.21-14.29.32:220][649]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.21-14.29.32:226][649]LogDerivedDataCache: Shutdown
+[2015.02.21-14.29.32:226][649]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.21-14.29.32:226][649]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.21-14.29.32:226][649]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.21-14.29.32:241][649]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.21-14.29.32:242][649]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.21-14.29.32:243][649]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.21-14.29.32:254][649]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.21-14.29.32:254][649]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.21-14.29.32:254][649]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.21-14.29.32:255][649]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.21-14.29.32:255][649]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.21-14.29.32:255][649]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.21-14.29.32:255][649]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.21-14.29.32:255][649]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.21-14.29.32:255][649]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.21-14.29.32:256][649]LogExit: Exiting.
+[2015.02.21-14.29.32:347][649]Log file closed, 02/21/15 15:29:32
